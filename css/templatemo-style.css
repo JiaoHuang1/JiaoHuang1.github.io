@@ -293,6 +293,11 @@ bootstrap.min.css:5
 	margin-top: 35px;
 }
 
+#skill .line-dec {
+	height: 1px;
+	background-color: rgba(250, 250, 250, 0.5);
+	margin: 20px 150px 30px 150px;
+}
 
 .projects-holder .mix {
   display: none;
@@ -358,13 +363,6 @@ bootstrap.min.css:5
 	margin: 20px 0px 15px 0px;
 }
 
-#skill .line-dec {
-	/* width: 270px; */
-	height: 1px;
-	background-color: rgba(250, 250, 250, 0.5);
-	margin: 20px 150px 30px 150px;
-}
-
 #portfolio .section-heading p {
 	color: #fff;
 	padding-right: 70px;
@@ -377,7 +375,19 @@ bootstrap.min.css:5
 	padding: 100px 0px;
 }
 
-#about .testimonials-item h4 {
+#about p {
+	color: white;
+	font-size: 20px;
+	font-weight: bold;
+}
+
+#about .line-dec {
+	height: 1px;
+	background-color: rgba(250, 250, 250, 0.5);
+	margin: 20px 150px 30px 150px;
+}
+
+#about h4 {
 	color: #fff;
 	font-size: 17px;
 	font-weight: 500;
@@ -386,20 +396,30 @@ bootstrap.min.css:5
 	margin-bottom: 5px;
 }
 
-#about .testimonials-item span {
+#about span {
 	font-size: 13px;
 	color: #fff;
 	letter-spacing: 0.5px;
 }
 
-#about .testimonials-item p {
+/* #about .testimonials-item {
 	font-size: 16px;
 	color: #9a9a9a;
 	font-style: italic;
 	font-weight: 300;
 	background-color: #fff;
 	padding: 30px;
-	border-radius: 5px;	
+	border-radius: 5px;
+	display: flex;
+} */
+
+#about .testimonials-item img {
+	height: 130px;
+	width: auto;
+	border: 5px solid white;
+	border-radius: 3px;
+	margin: 1px;
+
 }
 
 .owl-pagination {
